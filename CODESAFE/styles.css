@@ -22,8 +22,15 @@ h1{
     color: blanchedalmond;
     font-size: 2em;
     border-radius: 2em;
-    background: rgba(0, 0, 0, 0.412);
     padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.Shelf1 h1{
+    font-family: "Unbounded";
+    font-size: 16px;
+    font-style: bold;
+    color: blanchedalmond;
+    text-align: center;
 }
 
 p{
@@ -31,7 +38,7 @@ p{
     font-size: xx-large;
     font-family: "Poppins";
     color: blanchedalmond;
-} 
+}
 
 input{
     border-radius: 2em;
@@ -44,7 +51,11 @@ input{
 }
 
 .SubmissionForm{
-    text-align: center;
+    margin: 0 auto;
+    padding: 16px;
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.654);
+    border-radius: 2em;
 }
 
 .Shelf1{
