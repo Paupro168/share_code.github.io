@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Share</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="src/icon.svg">
+</head>
+
+<body>
+    
+    <div class = "Welcome">
+
+        <h1>Welcome to Code Share</h1>
+        <h2>Welcome, coder</h2>
+    
+    </div>
+
+    <div class = "Shelf1">
+        <p> "The perfect place for coders to share and express their ideas."</p>
+    </div>
+
+    <div class = "SubmissionForm">
+        <form onsubmit="runCode(event)" action="https://formsubmit.co/paucavadh@gmail.com" method="POST">
+           <input name="email" type = "email" placeholder="e-mail" />
+           <button type="submit">Submit!</button>
+        </form>
+        
+    </div>
+
+    <script>
+        function runCode(e){
+            e.preventDefault();
+        }
+    </script>
+
+</body>
+
+</html>
