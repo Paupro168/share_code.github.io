@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 
 h1{
     font-family: "Unbounded";
@@ -19,7 +20,7 @@ h1{
 
 .Welcome h2{
     display: inline-block;
-    font-family: "Poppins";
+    font-family: "Inconsolata";
     color: blanchedalmond;
     font-size: 2em;
     border-radius: 2em;
@@ -37,14 +38,14 @@ h1{
 p{
     font-style: italic;
     font-size: xx-large;
-    font-family: "Poppins";
+    font-family: "Inconsolata";
     color: blanchedalmond;
 }
 
 input{
     border-radius: 2em;
     border: none;
-    font-family: "Poppins";
+    font-family: "Inconsolata";
     font-size: 24px;
     padding: 16px 32px;
     margin: 2px 1px;
@@ -84,12 +85,13 @@ h2{
 }
 
 button{
-    font-family: "Poppins";
-    font-size: large;
-    position: sticky;
-    background-image: linear-gradient(to right, #cf972e 0%, #f45d3f 51%, #cf972e 100%);
-    margin: 1em auto;
-    padding: 30px 50px;
+    border-radius: 2em;
+    font-family: "Inconsolata";
+    border: 50em;
+    border-color: blanchedalmond;
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.412);
+    padding: 16px 32px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -99,7 +101,7 @@ button{
     border-radius: 2em;
     display: block;
 }
-        
+
 button:hover {
     background-position: right center;
     /* change the direction of the change here */
