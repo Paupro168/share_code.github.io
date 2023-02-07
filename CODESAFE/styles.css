@@ -69,19 +69,27 @@ input{
 }
 
 button{
-    border-radius: 2em;
     font-family: "Poppins";
-    border: 50em;
-    border-color: blanchedalmond;
-    color: blanchedalmond;
-    background-color: rgba(0, 0, 0, 0.412);
-    padding: 16px 32px;
+    font-size: large;
+    position: sticky;
+    background-image: linear-gradient(to right, #cf972e 0%, #f45d3f 51%, #cf972e 100%);
+    margin: 1em auto;
+    padding: 30px 50px;
     text-align: center;
-    text-decoration: none;
-    font-size: 24px;
-    margin: 2px 1px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border: none;
+    color: white;
+    border-radius: 2em;
+    display: block;
+}
+        
+button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration:none;
 }
 
 body{
