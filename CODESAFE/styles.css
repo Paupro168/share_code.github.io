@@ -43,9 +43,8 @@ input{
     border-radius: 2em;
     border: none;
     font-family: "Poppins";
-    font-size: 24px;
+    font-size: 16px;
     padding: 16px 32px;
-    margin: 2px 1px;
     border-radius: 2em;
 }
 
@@ -61,7 +60,6 @@ h2{
     text-align: center;
     margin: 0 auto;
     padding: 16px;
-    width: 600px;
     background-color: rgba(0, 0, 0, 0.654);
     border-radius: 2em;
 }
