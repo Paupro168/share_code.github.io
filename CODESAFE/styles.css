@@ -92,7 +92,7 @@ button{
    text-transform: uppercase;
    transition: 0.5s;
    background-size: 200% auto;
-   color: blanchedalmond;
+   color: rgba(255, 255, 255, 0.5);
    border: none;
    border-radius: 2em;
    display: block;
