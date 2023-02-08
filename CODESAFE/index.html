@@ -30,12 +30,12 @@
 
     <div class = "TheApp">
         <h1>The App</h1>
-        <h2> We are looking to create a social media created for coders, in wich you could see posts from other coders</h2>
+        <h2> We are looking to create a social media created for coders, in wich you could see posts of code and developement logs.</h2>
     </div>
     
     <div class = "SubmissionForm">
         <h2>Submit your email and enter the beta-tester program when it comes out!</h2>
-        <form onsubmit="runCode(event)" action="https://formsubmit.co/paucavadh@gmail.com" method="POST">
+        <form onsubmit="runCode(event), msgSubmmit()" action="https://formsubmit.co/paucavadh@gmail.com" method="POST">
            <input name="email" type = "email" placeholder="e-mail" />
            <button type="submit">Submit!</button>
         </form>
@@ -45,6 +45,10 @@
     <script>
         function runCode(e){
             e.preventDefault();
+        }
+
+        function msgSubmmit(){
+           alert("Thanks!") 
         }
     </script>
 
