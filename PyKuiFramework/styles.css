@@ -81,6 +81,7 @@ button:hover{
  }
 
 body{
+    background-repeat: repeat-x;
     background: rgb(49,64,162);
-    background: linear-gradient(90deg, rgba(49,64,162,1) 0%, rgba(0,166,255,1) 100%);
+    background: linear-gradient(0deg, rgba(49,64,162,1) 0%, rgba(0,166,255,1) 100%);
 }
