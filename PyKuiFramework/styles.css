@@ -19,10 +19,6 @@ h1{
     color: #fff;
 }
 
-h2{
-    font-family: 'Red Hat Mono', monospace;
-    color: #fff;
-}
 
 
 .Welcome{
@@ -36,9 +32,53 @@ h2{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 .Team{
     text-align: center;
+    border-radius: 2em;
+    padding: auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+.References{
+    text-align: center;
+    border-radius: 2em;
+    padding: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2{
+  font-family: 'Red Hat Mono', monospace;
+  color: #fff;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.DownloadSect{
+  text-align: center;
+}
+
+button{
+   background-image: linear-gradient(to right, rgba(49,64,162,1) 0%, rgba(0,166,255,1) 100%);
+   font-family: 'Red Hat Mono', monospace;
+   font-size: xx-large;
+   margin: 1em auto;
+   padding: 15px 45px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: rgba(255, 255, 255, 0.5);
+   border: none;
+   border-radius: 2em;
+   display: block;
+ }
+
+button:hover{
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
 
 body{
     background: rgb(49,64,162);
