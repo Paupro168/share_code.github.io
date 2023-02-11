@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+  background-image: url(rsrc/bg.svg);
+  background-size: cover;
+  background-color: #00101C;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Text{
+  color: #fff;
+  font-family: "PT Mono";
+}
+
+
+.Welcome{
+  padding: 3em;
+  background-size: cover;
+}
+
+.Section{
+  padding: 2em;
+  border-radius: 1em;
+
+  margin: 2em;
+  text-align: center;
+}
+
+.Download{
+  padding: 2em;
+  text-align: center;
+}
+
+
+.Title{
+  color: #fff;
+  font-family: "PT Mono";
+  font-size: 150px;
+}
+
+.Subtitle{
+  color: #fff;
+  font-family: "PT Mono";
+  font-size: 100px;
+}
+
+         
+button{
+  background-image: linear-gradient(to right, #a14a46 0%, #8a3c4f  51%, #4e2d4f 100%);
+  padding: 15px 45px;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgba(255, 255, 255, 0.5);      
+  border: none;
+  border-radius: 2em;
+}
+button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+         
