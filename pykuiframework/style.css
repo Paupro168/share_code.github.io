@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
+@media only screen and (orientation = portrait){
+  .Text{
+    text-align: center;
+  }
+
 }
 
 body{
   text-align: center;
   background-image: url(rsrc/bg.svg);
+  background-color: #040420;
   background-size: cover;
-  background-color: #00101C;
 }
 
 a{
@@ -23,20 +25,10 @@ a{
 
 
 .Welcome{
-  padding: 3em;
   background-size: cover;
 }
 
-.Section{
-  padding: 2em;
-  border-radius: 1em;
-
-  margin: 2em;
-  text-align: center;
-}
-
 .Download{
-  padding: 2em;
   text-align: center;
 }
 
@@ -67,7 +59,6 @@ button{
   border-radius: 2em;
 }
 button:hover {
-  background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
